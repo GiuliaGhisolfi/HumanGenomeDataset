@@ -2,3 +2,6 @@ human_genome/
 files/protein
 files/rna
 __pycache__/
+human_genome_protein/
+human_genome_rna/
+human_genome_coding_sequences/
