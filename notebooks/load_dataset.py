@@ -1,15 +1,14 @@
 import pandas as pd
-import zipfile
+import unzip
 
 FOLDER_PATH = 'human_genome.zip'
-DNA_PROTEIN_CODING_PATH = 'human_genome/humana_genome_protein_coding.pkl'
-RNA_PATH = 'human_genome/humana_genome_rna.pkl'
-PROTEIN_PATH = 'human_genome/humana_genome_protein.pkl'
+DNA_PROTEIN_CODING_PATH = 'human_genome/human_genome_protein_coding_seq.pkl'
+RNA_PATH = 'human_genome/human_genome_rna.pkl'
+PROTEIN_PATH = 'human_genome/human_genome_protein.pkl'
 
 def load_dataset(dataset_name):
     # Unzip the file
-    with zipfile.ZipFile(FOLDER_PATH, 'r') as zip_ref:
-        zip_ref.extractall(FOLDER_PATH)
+    unzip.unzip(FOLDER_PATH, level=1)
 
     # Load the dataset
     if dataset_name == 'dna_protein_coding_sequences':
