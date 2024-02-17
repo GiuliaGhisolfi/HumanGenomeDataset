@@ -17,7 +17,7 @@ The dataset is included in the folder `human_genome.zip`.
 For more information about the datasets and the analyses performed, please refer to the notebook [EDA.ipynb](EDA.ipynb).
 
 
-Load repository:
+Clone repository:
 ```
 git clone https://github.com/GiuliaGhisolfi/HumanGenomeDataset.git
 ```
