@@ -1,3 +1,4 @@
-human_genoma/
+human_genome/
 files/protein
 files/rna
+__pycache__/
