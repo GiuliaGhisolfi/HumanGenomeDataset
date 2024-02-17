@@ -8,7 +8,7 @@ The dataset was obtained from the RefSeqGene section of the Reference Sequence D
 
 ## Dataset
 
-The dataset is included in the folder `human_genome.zip`.
+The dataset is included in the folder `human_genome`.
 
 - `human_genoma_rna.pkl`: Contains RNA sequence data.
 - `human_genoma_protein.pkl`: Contains protein sequence data.
